@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NoActionBar.Dark">
+        <item name="android:statusBarColor">@color/colorDark</item>
+        <item name="android:background">@color/colorDark</item>
+        <item name="android:navigationBarColor">@color/colorDark</item>
+        <item name="android:button">@style/button_dm</item>
+    </style>
+
+    <style name="NoActionBar.Light">
+        <item name="android:statusBarColor">@color/colorLight</item>
+        <item name="android:background">@color/colorLight</item>
+        <item name="android:navigationBarColor">@color/colorLight</item>
+        <item name="android:button">@style/button_lm</item>
+    </style>
+
+    <style name="button_dm">
+        <item name="android:textColor">@color/colorDark</item>
+        <item name="android:backgroundTint">@color/colorLight</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="button_lm">
+        <item name="android:textColor">@color/cardview_light_background</item>
+        <item name="android:backgroundTint">@color/colorDark</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Text.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="Widget.Button.Save" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+    <style name="Widget.Button.Login" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.TextInputLayout.HintText</item>
+        <item name="hintTextColor">@color/colorLight</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">@color/textInputOutColor</item>
+    </style>
+
+    <style name="TextAppearance.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MaterialDesign</string>
+    <string name="shr_button_cancel">cancel</string>
+    <string name="shr_hint_password">Password</string>
+    <string name="shr_hint_username">Username</string>
+    <string name="shr_app_name">Shrine</string>
+    <string name="shr_button_next">Next</string>
+    <string name="number1">number1</string>
+    <string name="number2">number2</string>
+    <string name="number3">number3</string>
+    <string name="number4">number4</string>
+</resources>
